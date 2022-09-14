@@ -6,7 +6,6 @@ public class ServerTCP extends Thread {
     
     private ServerSocket socket;
 
-    //private ArrayList<Socket>  array_clientes;
     ArrayList<Socket> array_clientes = new ArrayList<Socket>(10);
 
     final static int serverPort = 4455;
